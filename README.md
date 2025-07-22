@@ -2,7 +2,7 @@
 
 ## 📌 Project Title
 
-**A Power BI report analyzing sales performance across customers, products, and promotions using SQL Server and Power Query.**
+**A Power BI report analyzing sales performance across customers, products, and promotions using Microsoft Excel and Power Query.**
 
 ---
 
