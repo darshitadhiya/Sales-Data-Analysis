@@ -1,78 +1,85 @@
-# 📊 Sales-Data-Analysis
+# 📈 Sales Data Analysis
 
-## 📌 Project Title
-
-**A Power BI report analyzing sales performance across customers, products, and promotions using Microsoft Excel and Power Query.**
+## 📌 Project Title  
+**Power BI Dashboard for Sales Performance Analysis Using Excel and Power Query**
 
 ---
 
-## 🎯 Short Description / Purpose
-
-This project helps a retail business understand and track its sales performance using interactive Power BI dashboards. The dataset includes sales transactions, product details, customer demographics, and promotional offers. Data was cleaned and modeled using Power Query and then imported from Microsoft Excel. The model follows a **star schema** with one central fact table and three dimension tables. The dashboard highlights trends in **total sales, discounts, net revenue**, and how different **products and promotions** performed across various customer groups. By using filters and visual tools, businesses can easily make informed decisions, spot sales trends, and improve marketing strategies.
+## 🎯 Short Description / Purpose  
+This Power BI project analyzes sales data to uncover patterns in revenue, profit, discount impact, and customer segments. The data was sourced from Excel and cleaned using Power Query Editor, then visualized in Power BI. The dashboard allows interactive filtering and reveals key performance indicators, top and bottom-performing products, regional insights, and comparisons based on discount percentage. The goal is to help the sales team make better decisions, boost profitability, and improve customer targeting.
 
 ---
 
 ## 🛠 Tech Stack
 
-| Technology               | Purpose / Usage                                     |
-| ------------------------ | --------------------------------------------------- |
-| **Microsoft Excel**      | Storing, cleaning, and managing relational data     |
-| **Power BI Desktop**     | Data visualization, building interactive dashboards |
-| **Power Query Editor**   | Data profiling, transformation, null handling       |
-| **DAX**                  | Creating calculated columns and custom metrics      |
+| Technology              | Purpose / Usage                                      |
+|-------------------------|------------------------------------------------------|
+| **Microsoft Excel**     | Data storage and source file                         |
+| **Power BI Desktop**    | Interactive report building, dashboard creation      |
+| **Power Query Editor**  | Data transformation, merging, and cleaning           |
+| **DAX**                 | Measures and calculated columns for KPIs             |
 
 ---
 
 ## 📂 Data Information
 
-* **Source Format:** CSV
-* **Imported Into:** Microsoft Excel
-* **Schema Type:** Star Schema
-* **Tables:**
+- **Data Format:** Excel (.xlsx)  
+- **Imported into:** Power BI Desktop  
+- **Data Volume:** ~10,000+ rows  
+- **Schema:** One fact table (`Sales`) and three dimension tables (`Customer`, `Product`, `Promotion`)  
 
-  * `Fact_Sales` (main fact table)
-  * `Dim_Customer`, `Dim_Product`, `Dim_Promotion` (dimension tables)
-* **Key Metrics:**
-
-  * `Total Sales`, `Discount`, `Net Sales`, `Quantity Sold`
+### 🔑 Key Columns:
+- `OrderID`, `ProductName`, `Category`, `CustomerID`, `Region`  
+- `Quantity`, `UnitPrice`, `Discount`, `Sales`, `Profit`, `OrderDate`  
+- `PromoCode`, `CustomerSegment`, `ReturnStatus`
 
 ---
 
-## 💼 Business Impact and Key Insights
+## 📊 Key Features & Business Impact
 
-* ✅ **Created a clean, structured star schema**
-  Built one fact table and three dimension tables to simplify data relationships and analysis.
+- ✅ **Sales and Profit Trends Across Regions**  
+  Identified high-revenue regions and low-profit zones using interactive charts to help allocate sales efforts better.
 
-* ✅ **Revealed sales trends by product and category**
-  Helped identify top-performing products and underperformers, guiding inventory planning and promotions.
+- ✅ **Top & Bottom Performing Products**  
+  Visualized top and bottom 5 products by Sales, Profit, and Quantity to support inventory and marketing strategy.
 
-* ✅ **Analyzed customer behavior across locations and age groups**
-  Provided insights on which segments are generating the most revenue and need targeted marketing.
+- ✅ **Discount Analysis**  
+  Compared sales performance with and without discounts to highlight how discounts affect revenue and profitability.
 
-* ✅ **Tracked the effect of promotions on net revenue**
-  Enabled decision-makers to understand which offers worked and which didn’t.
+- ✅ **Segment-Wise Sales Distribution**  
+  Analyzed sales across customer segments like Corporate, Home Office, and Consumer to assist targeted campaigns.
 
-* ✅ **Ensured clean and reliable data**
-  Removed nulls, ensured consistent data types, and validated relationships before visualizing.
+- ✅ **Returns and Loss Tracking**  
+  Monitored returned orders and associated loss to improve supply chain decisions and reduce loss.
 
 ---
 
 ## 📸 Visuals / Screenshots
 
-### 📍 Sales Dashboard Overview
-
-![Sales Dashboard Overview]([https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Sales%20Dashboard%20Overview.png](https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Overview.png))
-
----
-
-### 📍 Product Analysis
-
-![Product Analysis]([https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Product%20Promotion%20Analysis.png](https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Top%20Bottom%205%20product%20by%20Sales%2CProfit%2CQuantity.png))
+### 📍 Sales Dashboard Overview  
+![Overview](https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Overview.png)
 
 ---
 
-### 📍 Comparisons
-
-![Comparision Analysis]([https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Customer%20Demographics.png](https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Comparisions.png))
+### 📍 Top & Bottom 5 Products by Sales, Profit, Quantity  
+![Top Bottom Products](https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Top%20Bottom%205%20product%20by%20Sales%2CProfit%2CQuantity.png)
 
 ---
+
+### 📍 Discount-Based Comparisons  
+![Comparisons](https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Comparisions.png)
+
+---
+
+## 📈 Conclusion
+
+This dashboard gives an end-to-end view of a company’s sales performance, helping stakeholders:
+- Identify top-performing regions and products.
+- Understand the true impact of discounts on profit.
+- Track losses due to returned products.
+- Make smarter data-driven decisions.
+
+---
+
+## 📁 Repository Structure
+
