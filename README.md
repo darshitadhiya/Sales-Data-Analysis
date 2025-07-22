@@ -26,7 +26,7 @@ This project helps a retail business understand and track its sales performance 
 ## 📂 Data Information
 
 * **Source Format:** CSV
-* **Imported Into:** Microsoft SQL Server
+* **Imported Into:** Microsoft Excel
 * **Schema Type:** Star Schema
 * **Tables:**
 
@@ -61,18 +61,18 @@ This project helps a retail business understand and track its sales performance 
 
 ### 📍 Sales Dashboard Overview
 
-![Sales Dashboard Overview](https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Sales%20Dashboard%20Overview.png)
+![Sales Dashboard Overview]([https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Sales%20Dashboard%20Overview.png](https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Overview.png))
 
 ---
 
-### 📍 Product & Promotion Analysis
+### 📍 Product Analysis
 
-![Product Promotion](https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Product%20Promotion%20Analysis.png)
+![Product Analysis]([https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Product%20Promotion%20Analysis.png](https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Top%20Bottom%205%20product%20by%20Sales%2CProfit%2CQuantity.png))
 
 ---
 
-### 📍 Customer Demographics Analysis
+### 📍 Comparisons
 
-![Customer Analysis](https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Customer%20Demographics.png)
+![Comparision Analysis]([https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Customer%20Demographics.png](https://github.com/darshitadhiya/Sales-Data-Analysis/blob/main/Comparisions.png))
 
 ---
